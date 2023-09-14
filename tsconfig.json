@@ -10,7 +10,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "paths": {
-      "modal": [
+      "ngx-modal-base": [
         "dist/modal"
       ]
     },
