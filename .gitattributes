@@ -1,0 +1,4 @@
+packages/demo-* merge=ours
+dist/demo-* merge=ours
+.gitattributes merge=ours
+.gitignore merge=ours
