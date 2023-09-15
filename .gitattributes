@@ -1,2 +1,3 @@
+projects/demo-* merge=ours
 .gitignore merge=ours
 .gitattributes merge=ours
