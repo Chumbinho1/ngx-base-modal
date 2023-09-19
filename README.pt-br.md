@@ -1,28 +1,28 @@
 # NgxBaseModal
 
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](README.pt-br.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Chumbinho1/ngx-base-modal)
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/Chumbinho1/ngx-base-modal/main)
 
-> The ngx-base-modal is a library that provides a base component to assist in creating modals.
+> O ngx-base-modal é uma biblioteca que oferece um componente base para auxiliar na criação de modais.
 
-## 💻 Dependencies
+## 💻 Dependências
 
-Having the libraries installed:
+Ter instalado as bibliotecas:
 
 - [ngx-bootstrap@11.0.1](https://github.com/valor-software/ngx-bootstrap/tree/v11.0.1);
 - [bootstrap@5.2.3](https://github.com/twbs/bootstrap/tree/v5.2.3);
 
-## 🚀 Installing NgxBaseModal
+## 🚀 Instalando o NgxBaseModal
 
 ```
 npm i ngx-base-modal
 ```
-## ☕ Usage
+## ☕ Utilizando
 
-To use ngx-base-modal in your project, follow these steps:
+Para usar o ngx-base-modal em seu projeto, siga estas etapas:
 
-Import the ModalModule from ngx-base-modal.
+Importe o ModalModule do ngx-base-modal
 
 example-modal.module.ts
 ```
@@ -38,7 +38,7 @@ import {ModalModule} form 'ngx-base-modal';
 export class ExampleModalModule {}
 ```
 
-Modal structure
+Estrutura do modal
 
 example-modal.component.ts
 
@@ -76,7 +76,7 @@ export class ExampleModalComponent extends BaseModal {
 }
 ```
 
-Import the ExampleModalModule
+Importar o ExampleModalModule
 
 app.module.ts
 ```
@@ -100,7 +100,7 @@ import { ExampleModalModule } from './components/example-modal/example-modal.mod
 export class AppModule { }
 ```
 
-Open the modal
+Abrir o modal
 
 app.component.ts
 ```
@@ -136,6 +136,6 @@ export class AppComponent {
 }
 ```
 
-## 📝 License
+## 📝 Licença
 
-This project is licensed under the MIT License. Please refer to the [LICENSE](LICENSE.md) file for more details.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
